@@ -1,0 +1,12 @@
+apertium-tur (0.1.0~r81882-1+wmf1) jessie-wikimedia; urgency=low
+
+  * Rebuild for Jessie.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 12 Sep 2017 09:08:22 +0530
+
+apertium-tur (0.1.0~r81882-1) unstable; urgency=low
+
+  [ Tino Didriksen ]
+  * Initial release (Closes: #875431)
+
+ -- Kartik Mistry <kartik@debian.org>  Mon, 11 Sep 2017 17:11:08 +0530
