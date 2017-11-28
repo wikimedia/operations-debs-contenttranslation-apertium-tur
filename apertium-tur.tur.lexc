@@ -1404,11 +1404,11 @@ LEXICON PRON-DEM-BU
 LEXICON PRON-ITG-NERE
 
 %<prn%>%<itg%>%<gen%>:%>enin # ;
-%<prn%>%<itg%>%<dat%>:%>eye #  ;
+%<prn%>%<itg%>%<dat%>:%>eye CLIT-GENERAL  ;
 %<prn%>%<itg%>%<acc%>:%>eyi # ;
 %<prn%>%<itg%>%<abl%>:%>eden # ;
-%<prn%>%<itg%>%<loc%>:%>ede # ;
-%<prn%>%<itg%>%<loc%>:%>de # ; ! Dir/LR
+%<prn%>%<itg%>%<loc%>:%>ede CLIT-GENERAL ;
+%<prn%>%<itg%>%<loc%>:%>de CLIT-GENERAL ; ! Dir/LR
 %<prn%>%<itg%>%<gen%>%<subst%>:%>esi CASE ;
 %<prn%>%<itg%>%<loc%>:%>edeki ATTR-SUBST ;
 
@@ -2921,7 +2921,7 @@ bu:bu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
-hepsi:hepsi DET-QNT ; ! "all"
+hepsi:hepsi PRON-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 kaç:kaç DET-QNT ; ! ""
 
@@ -3048,7 +3048,9 @@ LEXICON Nouns
 
 hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
+beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
+hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
@@ -3279,6 +3281,7 @@ rolü:rolü N1 ; ! "role"
 yanlış:yanlış%{v%} N1 ; ! "mistake"
 milliyetçi:milliyetçi N1 ; ! "nationalist"
 radyo:radyo N1 ; ! "radio"
+radyo% komisyonu:radyo% komisyon N2 ; ! Dir/RL ! Use/MT 
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
@@ -8300,7 +8303,7 @@ teşkil:teşkil N1 ; ! "organization"
 sol:sol N1 ; ! "left"
 protesto:protesto N1 ; ! " protest"
 silah:silah N1 ; ! "weapon"
-yanlısı:yanlısı N1 ; ! "proponent"
+yanlısı:yanlı N2 ; ! Dir/RL ! Use/MT
 doğalgaz:doğalgaz N1 ; ! "natural gas"
 gazeteci:gazeteci N1 ; ! "journalist"
 karşıt:karşıt N1 ; ! "opponent"
@@ -8440,7 +8443,7 @@ oğuz:oğuz N1 ;
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
 akamanış:akamanış N1 ;
-oratalma:ortalama N1 ;
+ortalama:ortalama N1 ;
 uyuşturucu:uyuşturucu N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
@@ -9187,7 +9190,7 @@ pil:pil N1 ;
 yurttaş:yurttaş N1 ;
 vapur:vapur N1 ;
 röpörtaj:röpörtaj N1 ;
-editörlük:editörlük N1 ;
+editörlük:editörlük%{v%} N1 ;
 motorcu:motorcu N1 ;
 labirent:labirent N1 ;
 göçmenlik:göçmenlik N1 ;
@@ -9259,7 +9262,7 @@ ispanyol:İspanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
 arap:Arap N3 ; ! ""
 isveçli:isveçli N3 ; ! "Swiss"
-özbek:Özbek N3 ; ! "Uzbek"
+özbek:Özbek%{v%} N3 ; ! "Uzbek"
 japon:Japon N3 ; ! "Japanese"
 türkmen:Türkmen N3 ; ! "Turkmen"
 mongol:Mongol N3 ; ! "Mongol"
@@ -9385,7 +9388,7 @@ sakin:sakin N1 ;  ! ""
 
 provokatör:provokatör N1 ; ! ""
 
-ağustos:ağustos N1 ; ! ""
+!ağustos:ağustos N1 ; ! ""
 akibet:akibet N1 ; ! ""
 akreditasyon:akreditasyon N1 ; ! ""
 almanca:almanca N1 ; ! ""
@@ -9489,7 +9492,7 @@ operator:operator N1 ; ! ""
 ortalık:ortalık%{v%} N1 ; ! ""
 otar:otar N1 ; ! ""
 otomat:otomat N1 ; ! ""
-özbek:özbek%{v%} N1 ; ! ""
+!özbek:özbek%{v%} N1 ; ! ""
 özgeçmiş:özgeçmiş N1 ; ! ""
 özümseme:özümseme N1 ; ! ""
 panayır:panayır N1 ; ! ""
@@ -9747,6 +9750,56 @@ yunanca:yunanca N1 ; ! ""
 arma:arma N1 ; ! ""
 kezlevli:Kezlevli N1 ; ! ""
 alevli:Alevli N1 ; ! ""
+yarışma:yarışma N1 ;
+savaşçı:savaşçı N1 ;
+topluluk:topluluk N1 ;
+radyo:radyo N1 ;
+klarnet:klarnet N1 ;
+keman:keman N1 ;
+spiker:spiker N1 ;
+köy:köy N1 ;
+sahne:sahne N1 ;
+şarkı:şarkı N1 ;
+sürgün:sürgün N1 ;
+orkestra:orkestra N1 ;
+orkestra% şefi:orkestra% şef N2 ; ! Dir/RL ! Use/MT
+yönetici:yönetici N1 ;
+derleme:derleme N1 ;
+ilköğretim:ilköğretim N1 ;
+salon:salon N1 ;
+müzisyen:müzisyen N1 ;
+gösteri:gösteri N1 ;
+uranyum:uranyum N1 ;
+piyes:piyes N1 ;
+grup:grup N1 ;
+kadro:kadro N1 ;
+zanaat:zanaat N1 ;
+tasarım:tasarım N1 ;
+orkestra:orkestra N1 ;
+furya:furya N1 ;
+kıtlık:kıtlık N1 ;
+mezun:mezun N1 ;
+bilişim:bilişim N1 ;
+şahit:şahit N1 ;
+akıl:akıl N1 ;
+özsavunma:özsavunma N1 ;
+soruşturmacı:soruşturmacı N1 ;
+blogcu:blogcu N1 ;
+doğumevi:doğumev N2 ;
+rüşvetçilik:rüşvetçilik%{v%} N1 ;
+gönüllü:gönüllü N1 ;
+şoför:şoför N1 ;
+prens:prens N1 ;
+şura:şura N1 ;
+sarsılma:sarsılma N1 ;
+diyanet:diyanet N1 ;
+Allah:Allah N1 ;
+yuvarlak:yuvarlak%{v%} N1 ;
+gündüz:gündüz N1 ;
+televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
+terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
+
+
 
 trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
@@ -11709,6 +11762,7 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
+Tatar-İnform:Tatar-İnform NP-ORG;
 MŞSC:MŞSC%{ii%} NP-ORG;
 AP:AP NP-AL ; ! ""
 B92:B92 NP-AL ; ! ""
@@ -17113,13 +17167,25 @@ Kırım:Kırım NP-TOP ; ! ""
 Anadolu:Anadolu NP-TOP ; ! ""
 Volın:Volın NP-TOP ; ! ""
 Ahmetli:Ahmetli NP-TOP ; ! ""
+Başkurtistan:Başkurtistan NP-TOP ; ! ""
+Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 
 LEXICON Adjectives
 insancıl:insancıl A1 ;
+aşırılıkçı:aşırılıkçı A1 ;
+işgalci:işgalci A1 ;
+bahsi:bahsi A1 ;
+ruhi:ruhi A1 ;
+ruhsal:ruhsal A1 ;
+barışçıl:barışçıl A1 ;
+kaba:kaba A1 ;
+suni:suni A1 ;
+
 karşı:karşı A1 ;
 pratik:pratik A4 ;
+sayın:sayın A4 ;
 idari:idari A4 ;
 yemeklik:yemeklik A4 ;
 
@@ -17270,7 +17336,7 @@ mümkün:mümkün A2 ;  ! ""
 
 yönelik:yönelik A4 ; ! "devoted"
 mali:mali A2 ; ! "economıcal"
-düşük:düşük A4 ; ! 'low'
+düşük:düşük A1 ; ! 'low'
 ! önceki:önceki A4 ; ! "previous"
 hakkındaki:hakkındaki A4 ; ! "in concerning"
 sonraki:sonraki A1 ; ! "next"
@@ -17458,7 +17524,7 @@ sihirli:sihirli A2 ;  ! "magical"
 kirli:kirli A2 ;  ! "dirty, dirty"
 paslı:paslı A4 ;  ! "rusty"
 taşlı:taşlı A4 ;  ! "stony"
-yaşlı:yaşlı A4 ;  ! "old"
+yaşlı:yaşlı A1 ;  ! "old"
 güneşli:güneşli A2 ;  ! "sunny"
 sesli:sesli A2 ;  ! "noisy"
 elverişli:elverişli A2 ;  ! "convenient"
@@ -17939,7 +18005,7 @@ manevi:manevi A4 ;  ! ""
 enayi:enayi A4 ;  ! ""
 mütevazi:mütevazi A4 ;  ! ""
 kıpkırmızı:kıpkırmızı A2 ;  ! ""
-ufak:ufak A4 ;  ! ""
+ufak:ufak A1 ;  ! ""
 müstahak:müstahak A2 ;  ! ""
 korkak:korkak A4;  ! ""
 yatalak:yatalak A4 ;  ! ""
@@ -18194,7 +18260,7 @@ yalçın:yalçın A4 ;  ! ""
 salgın:salgın A4 ;  ! ""
 yılgın:yılgın A4 ;  ! ""
 zengin:zengin A1 ;  ! ""
-gergin:gergin A4 ;  ! ""
+gergin:gergin A1 ;  ! ""
 tedirgin:tedirgin A4 ;  ! ""
 kırgın:kırgın A4 ;  ! ""
 belirgin:belirgin A4 ;  ! ""
@@ -18457,7 +18523,7 @@ değerli:değerli A1 ; ! "different"
 tekerlekli:tekerlekli A2 ; ! "wheeled"
 ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
 ağaçlıklı:ağaçlıklı A2 ; ! "betreed" ! FIXME: CHECK A3
-nükleer:nükleer A4 ; ! "nuclear"
+nükleer:nükleer A1 ; ! "nuclear"
 aynı:aynı A2 ; ! "similar, same"
 benzer:benzer A2 ; ! "similar, alike"
 medeni:medeni A2 ; ! "civilized"
@@ -18621,9 +18687,15 @@ kalabalık:kalabalık A1 ;
 ikili:ikili A1 ;
 üçlü:üçlü A1 ;
 hukuksuz:hukuksuz A1 ;
+sanatsal:sanatsal A1 ;
+aylık:aylık A1 ;
+mahkum:mahkum A1 ;
+ihtiyar:ihtiyar A1 ;
+önceki:önceki A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
+düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
-
+bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
@@ -18633,6 +18705,7 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 kadar:kadar ADV3 ;
 nispeten:nispeten ADV3 ;
@@ -18960,6 +19033,17 @@ sonradan:sonradan ADV3 ; ! "later on"
 sonunda:sonunda ADV3 ; ! "at the end"
 şöyle:şöyle ADV3 ; ! "in that way"
 şüphesiz:şüphesiz ADV3 ; ! "undoubtfully"
+öncelikle:öncelikle ADV3 ; ! "firstly"
+sınırsızca:sınırsızca ADV3 ; ! "limitlessly"
+birazdan:birazdan ADV3 ; ! "presently"
+şimdiden:şimdiden ADV3 ; ! "already"
+şahsen:şahsen ADV3 ; ! "personally"
+doğrudan:doğrudan ADV3 ; ! "directly"
+nihayet:nihayet ADV3 ; ! "finally"
+geçen% sene:geçen% sene ADV3 ; ! Dir/RL ! Use/MT 
+
+
+
 sürekli:sürekli ADV3 ; ! "always"
 tamamen:tamamen ADV3 ; ! "completely"
 tesadüfen:tesadüfen ADV3 ; ! "accidentally"
@@ -19500,7 +19584,8 @@ direnle:direnle V-IR-TV ; ! "to pitchfork" (T)
 dirsekle:dirsekle V-IR-TV ; ! "to elbow" (T)
 dizginle:dizginle V-IR-TV ; ! "restrain" (T)
 dizile:dizile V-IR-TV ; ! "arrange" (T)
-dizle:dizle V-IR-TV ; ! "to knee /fall on knees" (T)
+dizil:dizil V-IR-IV ; ! 
+dizle:dizle V-IR-TV ; ! 
 dişle:dişle V-IR-TV ; ! "dent" (T)
 doku:doku V-IR-TV ; ! "knit" (T)
 dola:dola V-IR-TV ; ! "coil up" (T)
@@ -19775,7 +19860,7 @@ başla:başla V-IR-TV ; ! "start"
 belirle:belirle V-IR-TV ; ! "indicate" (T)
 bellе:bellе V-IR-TV ; ! "memorise" (T)
 benimse:benimse V-IR-TV ; ! "embark on" (T)
-benze:benze V-IR-TV ; ! "resemble" (T)
+benze:benze V-IR-IV ; ! "resemble" (T)
 besle:besle V-IR-TV ; ! "feed" (T)
 beze:beze V-IR-TV ; ! "decorate" (T)
 bila:bila V-IR-TV ; ! "sharpen" (T)
@@ -19913,6 +19998,8 @@ katla:katla V-IR-TV ; ! "fold" (T)
 kavra:kavra V-IR-TV ; ! "comprehend" (T)
 kayıtla:kayıtla V-IR-TV ; ! "restrict" (T)
 kazı:kazı V-IR-TV ; ! "scrape" (T)
+geri% çevir:geri% çevir V-IR-TV ; ! "" Use/MT
+
 
 gir:gir V-AR-IV ; ! enter" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
@@ -20556,6 +20643,7 @@ tamir% et:tamir% et V-AR-TV ;
 
 sohbet% et:sohbet% et V-AR-IV ;
 temin% edil:temin% edil V-IR-IV ; ! Dir/RL ! Use/MT 
+destek% ver:destek% ver V-IR-IV ; ! Dir/RL ! Use/MT 
 rağbet% et:rağbet% et V-AR-IV ; 
 
 alın:alın V-IR-IV ;
@@ -20598,6 +20686,7 @@ yanaşıl:yanaşıl V-IR-IV ;
 yayıl:yayıl V-IR-IV ;
 yıkıl:yıkıl V-IR-IV ;
 yorul:yorul V-IR-IV ;
+hesapla:hesapla V-IR-IV ;
 
 hayırlaş:hayırlaş V-IR-IV ; ! ""
 

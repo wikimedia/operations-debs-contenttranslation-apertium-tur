@@ -2,8 +2,8 @@
 ## Makefile for apertium-tur
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
+RELEASE=0.2
+VERSION=0.2.0
 LANG1=tur
 BASENAME=apertium-$(LANG1)
 
@@ -128,6 +128,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).lexc            \
                 $(BASENAME).$(LANG1).twol       \
                 $(BASENAME).$(LANG1).rlx        \
                 $(BASENAME).post-$(LANG1).dix   \
+                $(LANG1).prob \
+                dev \
                 modes.xml
 
 
