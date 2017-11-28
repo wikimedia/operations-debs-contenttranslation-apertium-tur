@@ -1,3 +1,9 @@
+apertium-tur (0.2.0~r83161-1+wmf1) jessie-wikimedia; urgency=low
+
+  * New upstream release.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 28 Nov 2017 18:37:25 +0530
+
 apertium-tur (0.1.0~r81882-1+wmf1) jessie-wikimedia; urgency=low
 
   * Rebuild for Jessie.
