@@ -1,3 +1,9 @@
+apertium-tur (0.2.0~r83161-1+wmf2) jessie-wikimedia; urgency=low
+
+  * Updated dependency on cg3
+
+ -- Kartik Mistry <kartik@debian.org>  Wed, 10 Jan 2018 11:44:05 +0530
+
 apertium-tur (0.2.0~r83161-1+wmf1) jessie-wikimedia; urgency=low
 
   * New upstream release.
